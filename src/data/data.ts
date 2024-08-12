@@ -1,4 +1,4 @@
-interface dataType {
+export interface dataType {
   name: string;
   subject: subject;
   hobby: string[];
@@ -10,7 +10,7 @@ interface subject {
   socialStudies: number;
 }
 
-export const studentData: dataType[] = [
+export const data: dataType[] = [
   {
     name: "",
     subject: {
